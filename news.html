@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/ma5slider.min.css" type="text/css">
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/ma5slider.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(window).on('load', function() {
+      $('.ma5slider').ma5slider();
+      // Methods
+      $('#example-34').ma5slider('goToSlide', 3);
+      // Calls
+      $('#example-34').on('ma5.animationStart', function() {
+        console.log('event animationStart');
+      });
+      $('#example-34').on('ma5.animationEnd', function() {
+        console.log('event animationEnd');
+      });
+      $('#example-34').on('ma5.firstSlide', function() {
+        console.log('event firstSlide');
+      });
+      $('#example-34').on('ma5.lastSlide', function() {
+        console.log('event lastSlide');
+      });
+      $('#example-34').on('ma5.activeSlide', function(event, slide) {
+        console.log('event activeSlide: ' + slide);
+      });
+    });
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tugas Akhir</title>
+</head>
+
+
+<body>
+  <!-- First Container Logo -->
+  <div class="container-fluid text-center">
+    <img src="img/header.png" class="img-responsive margin" style="display:inline" alt="Logo">
+  </div>
+
+  <!-- Navbar -->
+  <div class="container-fluid text-center" id="menu">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1" id="menuNav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about-us.html">ABOUT US</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="news.html">NEWS & PROMOTIONS</a></li>
+          <li><a href="reviews.html"> REVIEWS</a></li>
+          <li><a href="locations.html">LOCATIONS</a></li>
+          <li><a href="contact-us.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Title -->
+
+  <div class="text-center din-55-white bg-soft-orange golden-border-box">
+    NEWS & PROMOTIONS
+  </div>
+  <br><br>
+
+  <!-- Slider -->
+  <div class="row">
+    <div id="example-01" class="col-sm-10 col-sm-offset-1 ma5slider anim-horizontal outside-navs outside-dots horizontal-navs horizontal-dots">
+      <div class="slides">
+        <a href="#slide-1"><img src="img/foto-iga-about-us.png" alt=""></a>
+        <a href="#slide-2"><img src="img/foto-iga-about-us.png" alt=""></a>
+        <a href="#slide-3"><img src="img/foto-iga-about-us.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- promosi pertama -->
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="float-left icon-kembang-2">
+          <img src="img/icon-kembang-orange.png" alt="icon">
+        </div>
+        <div class="ov-hidden" id="about-leko">
+          <h1 class="din-36-orange">
+            <b>HAPPY HOURS <br> 1-4 PM</b>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <img src="img/foto-iga-about-us.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <p class="lineheight-32 din-21-black margin-25-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- promosi kedua -->
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="float-left icon-kembang-2">
+          <img src="img/icon-kembang-orange.png" alt="icon">
+        </div>
+        <div class="ov-hidden" id="about-leko">
+          <h1 class="din-36-orange">
+            <b>RAYAKAN ULTAHMU DAN DAPATKAN<br>DISCOUNT SESUAI UMURMU DAN<br>HADIAH SPECIAL</b>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <img src="img/foto-iga-about-us.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <p class="lineheight-32 din-21-black margin-25-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Footer -->
+  <br><br>
+  <div class="container-fluid" id="footer">
+    <!-- perintah -->
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center" id="perintah-suscribe">
+        Get Latest News About Our Special Menu And Promotions
+      </div>
+    </div>
+    <!-- suscribe -->
+    <div class="row">
+      <div class="col-sm-9 col-sm-offset-3 text-center">
+        <input type="text" id="input-suscribe">
+        <div class="bg-orange" id="outer-suscribe">
+          <div class="bg-orange-border" id="button-suscribe">suscribe</div>
+        </div>
+      </div>
+    </div>
+    <!-- social media -->
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <img src="img/logo-facebook.png" alt="fb" class="margin-10">
+        <img src="img/logo-instagram.png" alt="instagram" class="margin-10">
+        <img src="img/logo-twitter.png" alt="instagram" class="margin-10">
+        <img src="img/youtube-icon.png" alt="youtube" class="margin-10">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
