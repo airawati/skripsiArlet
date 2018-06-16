@@ -271,3 +271,16 @@
 .icon-sosmed {
   margin: 10px;
 }
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.c-yellow {
+  background: #fbaf3f;
+}
+
+hr {
+  border: 0;
+  background: white;
+  height: 1px;
+}
