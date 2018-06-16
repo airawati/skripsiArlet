@@ -74,6 +74,10 @@
   background-color: #F7931D;
 }
 
+.bg-orange-90{
+  background: rgba(251, 175, 63, 0.9);
+}
+
 .bg-orange-border {
   background-color: #F7931D;
   border: 1px solid #ffffff;
@@ -100,13 +104,28 @@
   font-weight: bold;
 }
 
-.din-12-bold {}
+.margin-top-30{
+  margin-top: 30px;
+}
 
-.din-55-regular {}
+.padding-all-30{
+  padding: 30px;
+}
 
-.din-36-bold {}
+.din-18-orange{
+  font-size: 16pt;
+  color: #FBAF3F;
+}
 
-.din-21-regular {}
+.din-21-orange{
+  font-size: 21pt;
+  color: #FBAF3F;
+}
+
+.din-21-black{
+  font-size: 21pt;
+  color: #000000;
+}
 
 /* Menu Navbar  */
 
