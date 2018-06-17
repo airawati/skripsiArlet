@@ -1,4 +1,5 @@
 /* Font Setting */
+
 @font-face {
   font-family: din;
   src: url(../fonts/DIN-Regular.otf);
@@ -20,13 +21,17 @@
   font-family: din;
 }
 
-* a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
+.font {
+  font-family: sans-serif;
+}
+
+* a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* General */
@@ -43,7 +48,7 @@ h1 {
   background-color: #F7931D;
 }
 
-.bg-soft-orange{
+.bg-soft-orange {
   background-color: #FBAF3F;
 }
 
@@ -52,6 +57,35 @@ h1 {
   border: 1px solid #ffffff;
 }
 
+.din-14-black {
+  font-size: 14pt;
+  color: #000000;
+}
+
+.din-14-white {
+  font-size: 14pt;
+  color: #ffffff;
+}
+
+.din-18-black {
+  font-size: 18pt;
+  color: #000000;
+}
+
+.din-21-black {
+  font-size: 21pt;
+  color: #000000;
+}
+
+.din-21-white {
+  font-size: 21pt;
+  color: #ffffff;
+}
+
+.din-21-orange {
+  font-size: 21pt;
+  color: #F6931D;
+}
 
 .din-36-orange {
   color: #F6931D;
@@ -63,32 +97,12 @@ h1 {
   font-size: 36pt;
 }
 
-.din-55-white{
+.din-55-white {
   font-size: 55pt;
   color: #ffffff;
 }
 
-.din-14-black{
-  font-size: 14pt;
-  color: #000000;
-}
-
-.din-14-white{
-  font-size: 14pt;
-  color: #ffffff;
-}
-
-.din-21-black{
-  font-size: 21pt;
-  color: #000000;
-}
-
-.din-21-orange{
-  font-size: 21pt;
-  color: #F6931D;
-}
-
-.lineheight-32{
+.lineheight-32 {
   line-height: 32pt;
 }
 
@@ -105,7 +119,7 @@ h1 {
   padding: 15px 10px 0px 0px;
 }
 
-.icon-kembang-2{
+.icon-kembang-2 {
   padding: 45px 10px 0px 0px;
 }
 
@@ -113,23 +127,26 @@ h1 {
   padding-left: 30px;
 }
 
-.link-hitam a {
+.link-hitam a {}
 
-}
+.link-putih a {}
 
-
-.link-putih a {
-
-}
-
-.margin-10{
+.margin-10 {
   margin: 10px;
 }
 
-.margin-25-0{
+.margin-25-0 {
   margin: 25px 0;
 }
 
+.padding-10 {
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+.button {
+  padding: 5px 25px;
+}
 
 /* Menu Navbar  */
 
@@ -154,6 +171,7 @@ h1 {
 }
 
 /* Footer suscribe box*/
+
 @media only screen and (max-width: 594px) {
   #input-suscribe {
     border: 5px solid #F7931D;
@@ -218,7 +236,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.bg-orange-90{
+.bg-orange-90 {
   background: rgba(251, 175, 63, 0.9);
 }
 
