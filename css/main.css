@@ -54,6 +54,11 @@
   font-size: 36pt;
 }
 
+.din-36-black {
+  color: #000000;
+  font-size: 36pt;
+}
+
 .din-55-white{
   font-size: 55pt;
   color: #ffffff;
@@ -72,6 +77,11 @@
 .din-21-black{
   font-size: 21pt;
   color: #000000;
+}
+
+.din-21-orange{
+  font-size: 21pt;
+  color: #F6931D;
 }
 
 .lineheight-32{
