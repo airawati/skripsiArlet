@@ -99,3 +99,43 @@
   background: rgba(251, 175, 63, 0.7);
   padding: 15px;
 }
+
+/* Footer */
+
+#footer {
+  background-image: url(../img/bagian-bawah.png);
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+#perintah-suscribe {
+  font-size: 18pt;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#button-suscribe {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #ffffff;
+  width: 110px;
+  height: 30px;
+}
+
+.icon-sosmed {
+  margin: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+.c-yellow {
+  background: #fbaf3f;
+}
+
+hr {
+  border: 0;
+  background: white;
+  height: 1px;
+}
