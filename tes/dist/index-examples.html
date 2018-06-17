@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/jquery-ui.min.js"></script>
+
+  <!-- MA5 Slider-->
+  <link href="./css/ma5slider.min.css" rel="stylesheet" type="text/css">
+  <script src="./js/ma5slider.min.js"></script>
+
+  <script>
+    $(window).on('load', function() {
+      $('.ma5slider').ma5slider();
+      // Methods
+      $('#example-34').ma5slider('goToSlide', 3);
+      // Calls
+      $('#example-34').on('ma5.animationStart', function() {
+        console.log('event animationStart');
+      });
+      $('#example-34').on('ma5.animationEnd', function() {
+        console.log('event animationEnd');
+      });
+      $('#example-34').on('ma5.firstSlide', function() {
+        console.log('event firstSlide');
+      });
+      $('#example-34').on('ma5.lastSlide', function() {
+        console.log('event lastSlide');
+      });
+      $('#example-34').on('ma5.activeSlide', function(event, slide) {
+        console.log('event activeSlide: ' + slide);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="example-01" class="ma5slider anim-horizontal outside-navs outside-dots horizontal-navs horizontal-dots">
+    <div class="slides">
+      <a href="#slide-1"><img src="./images/09.jpg" alt=""></a>
+      <a href="#slide-2"><img src="./images/01.jpg" alt=""></a>
+      <a href="#slide-3"><img src="./images/03.jpg" alt=""></a>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+/* Font Setting */
+@font-face {
+  font-family: din;
+  src: url(../fonts/DIN-Regular.otf);
+}
+
+@font-face {
+  font-family: din;
+  src: url(../fonts/DIN-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: din;
+  src: url(../fonts/DIN-MediumItalic.otf);
+  font-style: italic;
+}
+
+* {
+  font-family: din;
+}
+
+* a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+/* General */
+
+.float-left {
+  float: left;
+}
+
+.ov-hidden {
+  overflow: hidden;
+}
+
+.bg-orange {
+  background-color: #F7931D;
+}
+
+.bg-soft-orange{
+  background-color: #FBAF3F;
+}
+
+.bg-orange-border {
+  background-color: #F7931D;
+  border: 1px solid #ffffff;
+}
+
+
+.din-36-orange {
+  color: #F6931D;
+  font-size: 36pt;
+}
+
+.din-55-white{
+  font-size: 55pt;
+  color: #ffffff;
+}
+
+.din-14-black{
+  font-size: 14pt;
+  color: #000000;
+}
+
+.din-14-white{
+  font-size: 14pt;
+  color: #ffffff;
+}
+
+.din-21-black{
+  font-size: 21pt;
+  color: #000000;
+}
+
+.lineheight-32{
+  line-height: 32pt;
+}
+
+.golden-border-box {
+  padding: 10px 0px;
+  border: 8px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, gold 0%, #ffffff 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, gold 00%, #ffffff 100%);
+  border-image: linear-gradient(to right, gold 30%, #ffffff 70%);
+  border-image-slice: 1;
+}
+
+.icon-kembang-1 {
+  padding: 20px 10px 0px 0px;
+}
+
+.icon-kembang-2{
+  padding: 45px 10px 0px 0px;
+}
+
+.padding-left-30 {
+  padding-left: 30px;
+}
+
+.link-hitam a {
+
+}
+
+
+.link-putih a {
+
+}
+
+.margin-10{
+  margin: 10px;
+}
+
+.margin-25-0{
+  margin: 25px 0;
+}
+
+
+/* Menu Navbar  */
+
+#menuNav ul {
+  list-style-type: none;
+  margin-top: : 0px;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#menuNav li {
+  display: inline-block;
+  padding: 15px 30px
+}
+
+#menuNav li a {
+  text-decoration: none;
+  font-size: 12pt;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Footer suscribe box*/
+@media only screen and (max-width: 594px) {
+  #input-suscribe {
+    border: 5px solid #F7931D;
+    width: 300px;
+    height: 50px;
+    margin-left: 10%;
+  }
+  #outer-suscribe {
+    width: 130px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 594px) {
+  #input-suscribe {
+    border: 5px solid #F7931D;
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-left: 10%;
+  }
+  #outer-suscribe {
+    width: 130px;
+    height: 50px;
+    margin: 0 20px;
+    padding: 10px;
+    float: left;
+  }
+}
+
+/* Footer */
+
+#footer {
+  background-image: url(../img/bagian-bawah.png);
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+#perintah-suscribe {
+  font-size: 18pt;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#button-suscribe {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #ffffff;
+  width: 110px;
+  height: 30px;
+}
