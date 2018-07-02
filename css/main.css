@@ -245,3 +245,30 @@ hr {
   background: white;
   height: 1px;
 }
+
+.menu-body {
+}
+
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  display: block;
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+}
+
+.menu-item-description {
+}
+
+.menu-item-price{
+  float: right;
+  margin-top: -22px;
+}
